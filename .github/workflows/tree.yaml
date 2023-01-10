@@ -1,0 +1,10 @@
+name: caller of custom
+on:
+  push:
+    branches:
+      - trunk-check/**
+
+jobs:
+  trunk-check:
+    uses: sxlijin-test-org1/.trunk/.github/workflows/reusable.yaml@221c3914b94583d45807a0e382a2eb37f584a773
+
