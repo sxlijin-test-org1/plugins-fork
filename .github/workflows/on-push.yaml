@@ -1,0 +1,6 @@
+name: Trunk Check on-demand
+on: [push]
+
+jobs:
+  trunk_check:
+    uses: sxlijin-test-org1/.trunk/.github/workflows/reusable.yaml@main
