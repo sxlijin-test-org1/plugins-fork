@@ -1,0 +1,8 @@
+name: Trunk Check on-demand
+on: [push]
+
+jobs:
+  trunk_check:
+    name: Trunk Check Dispatcher
+    runs-on: ubuntu-latest
+    uses: sxlijin-test-org1/.trunk/.github/workflows/reusable.yaml@main
